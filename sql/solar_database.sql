@@ -1,0 +1,16 @@
+
+CREATE TABLE energia_fotovoltaica (
+
+    DATE_TIME TEXT,
+    PLANT_ID INTEGER,
+    SOURCE_KEY TEXT,
+    DC_POWER REAL,
+    AC_POWER REAL,
+    DAILY_YIELD REAL,
+    TOTAL_YIELD REAL,
+    EFFICIENCY REAL,
+    NIVEL_GENERACION TEXT,
+    hora INTEGER,
+    ratio_conversion REAL,
+    dia INTEGER
+);
